@@ -31,7 +31,7 @@ def apply(_, threshold):
     # Run only when the button is clicked
     if not _:
         raise dash.exceptions.PreventUpdate
-    return f'✅ Applied threshold = {threshold}'
+    return f' Applied threshold = {threshold}'
 
 if __name__ == '__main__':
     app.run(debug=True)
