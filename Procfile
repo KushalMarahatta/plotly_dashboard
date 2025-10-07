@@ -1,0 +1,13 @@
+web: gunicorn app:server
+web: gunicorn app_tabs:server
+web: gunicorn app_state:server
+web: gunicorn app_multiple_graph:server
+web: gunicorn app_multiple_control:server
+web: gunicorn app_mapbox:server
+web: gunicorn app_layout:server
+web: gunicorn app_kpi:server
+web: gunicorn app_dcc:server
+web: gunicorn app_dcc_interval:server
+web: gunicorn app_cross_filter:server
+web: gunicorn app_choropleth:server
+web: gunicorn app_bootstrap:server

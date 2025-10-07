@@ -1,0 +1,45 @@
+/* /assets/style.css */
+
+/* Base font for the whole dashboard */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f5f6f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Give all Graphs a white background and subtle shadow */
+.dash-graph {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings and labels */
+h2, h3, h4, label {
+  color: #222;
+  letter-spacing: 0.5px;
+}
+
+/* Cards spacing and padding */
+.card {
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Dropdown styling */
+.Select-control {
+  border-radius: 8px;
+  border-color: #ccc;
+}
+
+/* KPI text alignment */
+.kpi-card {
+  text-align: center;
+}
+
+/* Add some spacing between sections */
+.row {
+  margin-bottom: 16px;
+}
