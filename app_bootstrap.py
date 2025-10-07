@@ -18,7 +18,7 @@ def kpi(title, value):
 
 app.layout = dbc.Container(fluid=True, children=[
 
-    dbc.Row([dbc.Col(html.H2("🌍 LIFE EXPECTANCY DASHBOARD WITH BOOTSTRAP"))], className="my-3"),
+    dbc.Row([dbc.Col(html.H2(" LIFE EXPECTANCY DASHBOARD WITH BOOTSTRAP"))], className="my-3"),
 
     dbc.Row([
         dbc.Col(id="kpi-countries", md=3, xs=6, className="mb-3"),
